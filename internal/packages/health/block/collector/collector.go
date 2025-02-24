@@ -19,7 +19,7 @@ var (
 
 const (
 	Subsystem      = "block"
-	subsystemSleep = 15 * time.Second
+	subsystemSleep = 5 * time.Second
 
 	TimestampMetricName   = "timestamp"
 	BlockHeightMetricName = "height"
